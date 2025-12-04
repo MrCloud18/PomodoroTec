@@ -42,7 +42,7 @@ class PomodoroViewModel(application: Application) : AndroidViewModel(application
     companion object {
         internal var instance: PomodoroViewModel? = null
 
-        private const val REWARD_THRESHOLD = 4
+        private const val REWARD_THRESHOLD = 1
         private const val KEY_HAS_STATE = "has_state"
         private const val KEY_PHASE = "phase"
         private const val KEY_TIME_REMAINING = "time_remaining"
